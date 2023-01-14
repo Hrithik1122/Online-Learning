@@ -19,10 +19,10 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) &&
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="hrithikbansal2400@gmail.com";
-	$mail->Password="cfylttrtwlqkyleq";
-	$mail->SetFrom("hrithikbansal2400@gmail.com");
-	$mail->addAddress("hrithikbansal2400@gmail.com");
+	$mail->Username="YOUR_GMAIL_ID";
+	$mail->Password="YOUR_GMAIL_PASSWORD";
+	$mail->SetFrom("YOUR_GMAIL_ID");
+	$mail->addAddress("ANOTHER_GMAIL_ID_YOU_WANT_TO_SEND_MESSAGE");
 	$mail->IsHTML(true);
 	$mail->Subject="Contact Us Form";
 	$mail->Body=$html;
