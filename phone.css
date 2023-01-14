@@ -1,0 +1,253 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #202023;
+}
+
+img {
+    pointer-events: none;
+}
+
+.img-con img{
+    max-width: 350px !important;
+    /* max-height: 357px !important; */
+    padding: 5px;
+}
+.sec-head p{
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    color: #c2cad2;
+    font-size: 1.3rem;
+    font-weight: 350;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  /* text-align: center;
+  padding-bottom: 30px;
+  color: #c2cad2; */
+}
+
+.nasa-Q1p7bh3SHj8-unsplash-3{
+    position: relative;
+    top: 60px;
+    left: 15px;
+    width: 95%;
+    height: 95%;
+}
+
+.study-in-usa{
+      position: absolute;
+      top: 10px;
+      right: 11px;
+      border-radius: 500%;
+      width: 330px;
+}
+
+.bottom-left {
+      position: absolute;
+    top: 340px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+  /*line-height: 1;*/
+}
+#book-free{
+    position: relative; 
+    position: absolute; 
+         /* left: -20%; */
+    align-items: center !important;
+    top: 295%;
+    padding-left: 0px !important;
+}
+
+#sec1img{
+    /* position: absolute; */
+    position: absolute;
+    margin-left: -480px;
+    /* left: 930px !important; */
+    width: 225px;
+    height: 350px;
+    top: 384px;
+    /* padding-top: 140px; */
+    /* margin-top: 30px; */
+}
+
+#why{
+  padding-top: 550px;
+  color: #000000;
+  font-size: 38px;
+  font-weight: 600;
+  margin-left: 50px;
+  text-align: left;
+}
+
+#listing1{
+        color: #c2cad2;
+    text-align: left;
+    margin-left: -20px;
+    font-size: 15px;
+}
+
+#list{
+  color: #c2cad2;
+  text-align: left;
+  margin-left: -10px;
+  font-size: 15px;
+    line-height: 1.5;
+}
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin-left: 5%;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  /*text-align: center;*/
+  outline: none;
+  font-family: "Poppins", Sans-serif; 
+  font-size: 22px;
+  text-align: left;
+  font-weight: 550;
+}
+
+
+.content {
+  /*padding: 0 80px;
+  width: 90%;*/
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  padding-left: 250px;
+  font-size: 20px;
+  line-height: 2.2rem;
+  background-color: white;
+  margin-left: 5%;
+  padding:0 10px;
+  width: 90%;
+}
+
+
+#sec4img{
+      position: absolute;
+    margin-left: -630px;
+    /* left: 930px !important; */
+    width: 340px;
+    height: 340px;
+    /* margin-top: -20px; */
+}
+
+#apply1{
+    margin-left: 5px; 
+    text-align: left; 
+    width: 97%;
+    padding-top: 100%;
+}
+
+#neo{
+  color: #7d7d7d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#why{
+      color: #f6f9fd;
+    font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: left;
+      margin-top: 350px !important;
+}
+
+#test{
+  padding-top: 90px;
+}
+#our-university{
+    font-size: 2.8rem; 
+    color: #e9eeff; 
+    font-weight: 600;
+    padding-top: 200px;
+}
+
+#skills{
+    margin-left: 5px;
+    text-align: center;
+    width: 100%;
+    color: #f6f9fd;
+}
+
+/*.col {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 300px;
+}
+
+#test{
+  font-size: 25px; color: #ef0309;  padding-top: 90px;
+}*/
+
+
+
+
+
+.slider {
+  background: pr;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  /* height: 100%;  */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    /* width: 136%; */
+    /* left: -120px; */
+
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+
+#counter-box {
+  /*width: 33.22%;*/
+  width: 290px;
+  min-width: 200px;
+  margin: 0px 0px 5px 0px;
+  padding: 5px 5px 5px 2px;
+  /*float: left;*/
+  text-align: center;
+  /*background-color: #111111;*/
+  color: #fff;
+  /*border: 1px solid #666666;*/
+}

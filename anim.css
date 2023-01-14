@@ -1,0 +1,36 @@
+.box {
+  height: 1000px;
+  background-color: red;
+}
+
+#counter-section-container {
+  width: 100%;
+  text-align: center;
+      padding: 40px 40px;
+  background-color: #333333;
+}
+
+#counter-box-container {
+  /*border: 1px solid #999999;*/
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+}
+
+#counter-box {
+  /*width: 33.22%;*/
+  width: 300px;
+  min-width: 200px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  float: left;
+  text-align: center;
+  /*background-color: #111111;*/
+  color: #fff;
+  /*border: 1px solid #666666;*/
+}
+
+.counter {
+  font-size: 50px;
+  color: #fff;
+}
