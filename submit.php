@@ -1,5 +1,5 @@
 <?php
-include('database.inc.php');
+include('include/database.inc.php');
 $msg="";
 if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) && isset($_POST['comment'])){
 	$name=mysqli_real_escape_string($con,$_POST['name']);
