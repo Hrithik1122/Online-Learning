@@ -49,12 +49,7 @@ $db->close();
         <input type="text" name="myusername" value="" placeholder="Enter a username" autocomplete="off" required />
         <i id="eye"></i>
        <input type="password" name="mypassword" value="" placeholder="Enter a password" autocomplete="off" required />
-        <!-- <label>
-          <input type="checkbox">
-          <span></span>
-          <small class="rmb">Remember me</small>
-        </label> -->
-        <!-- <a href="#" class="forgetpass">Forget Password?</a> -->
+
         <input type="submit" value="Login" class="btn1" name="submit_it">
       </form>
       <!--   <a href="#" class="dnthave">Don’t have an account? Sign up</a> -->
